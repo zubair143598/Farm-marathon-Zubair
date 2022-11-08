@@ -1,0 +1,116 @@
+//header
+.header
+{
+  .logo
+  {
+    color: #1ddafd!important;
+    font-size: 35px!important;
+    font-weight: bolder;
+  }
+  li
+  {
+    border: 2px solid #1ddafd!important;
+    .clr
+  {
+    color: #1ddafd!important;
+    border-color: #1ddafd !important;
+  }
+}
+}
+
+//Hero-section
+.Hero-section
+{
+.h1
+{
+  font-size: 2.5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #0054cf;
+    font-weight: 900;
+    font-stretch: normal;
+    text-align: center;
+}
+h3
+{
+  // font-family: "Bakbak One";
+  font-size: 1.75rem;
+  font-weight: bolder ;
+}
+h2
+{
+  color: #0054cf;
+  font-weight: bolder;
+}
+.card
+{
+  border: 2px solid #0054cf;
+  padding: 10px;
+  box-shadow: 5px 10px #0054cf;
+}
+button
+{
+  border: 2px solid #1ddafd;
+  background-color: white;
+  padding: 15px 50px;
+  color: #1ddafd;
+  font-weight: bolder;
+}
+button:hover
+{
+  color: white;
+  background-color: #1ddafd;
+}
+}
+
+
+//StakePool-section
+.StakePool-section
+{
+  h1{
+  font-size: 2.5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #0054cf;
+    font-weight: 900;
+    font-stretch: normal;
+    text-align: center;
+  }
+  button
+{
+  border: 2px solid #1ddafd;
+  background-color: white;
+  padding: 15px 50px;
+  color: #1ddafd;
+  font-weight: bolder;
+}
+button:hover
+{
+  color: white;
+  background-color: #1ddafd;
+}
+.card
+{
+  margin-top: 30px;
+  border: 2px solid #0054cf;
+  padding: 10px;
+  box-shadow: 5px 10px #0054cf;
+}
+
+}
+
+
+
+//elect-section
+.Select-section
+{
+h1{
+    font-size: 2.5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #0054cf;
+    font-weight: 900;
+    font-stretch: normal;
+    text-align: center;
+  }
+}
