@@ -113,4 +113,33 @@ h1{
     font-stretch: normal;
     text-align: center;
   }
+  .text-muted
+  {
+    color: #a5abb3 !important;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  button
+  {
+    border: 2px solid #1ddafd;
+    background-color: white;
+    padding: 12px 60px;
+    color: #1ddafd;
+    font-weight: bolder;
+  }
+  button:hover
+  {
+    color: white;
+    background-color: #1ddafd;
+  }
+
+  .card
+{
+  
+  border: 2px solid #0054cf;
+  padding: 10px;
+  box-shadow: 5px 10px #0054cf;
+}
+
 }
