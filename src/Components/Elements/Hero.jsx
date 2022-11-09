@@ -15,7 +15,7 @@ const Hero = () => {
 
         <div className="row">
           <div className="col-lg-6">
-            <div className="card h-100 text-center">
+            <div className="card mt-4 h-100 text-center">
               <div className="card-body">
                 <div className="row">
                   <div className="col-lg-6">
@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
 
           <div className="col-lg-6">
-            <div className="card h-100 text-center">
+            <div className="card h-100 mt-4 text-center">
               <div className="card-body">
                 <div className="row">
                   <div className="col-lg-4">
