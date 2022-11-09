@@ -11,39 +11,56 @@ import { BsFacebook } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="Footer-section">
-      <div className="container">
-        <div className="row">
-          <div className="col-5 mb-5">
-            <h1 className="mt-5">
-              YOUR STEPS COUNT
-              <br />
-              WITH Marathon!
-            </h1>
-            <img src="./Assists/mobileapp.svg" className="w-25 mt-3" alt="" />
-            <img
-              src="./Assists/mobileapp1.svg"
-              className="w-25 ms-3 mt-3 "
-              alt=""
-            />
-          </div>
-          <div className="col-2"></div>
-          <div className="col-5 text-end">
-            <h2 className="mt-5">Join Our Comunity</h2>
-            <p>
-              <AiOutlineMedium className="ms-3 mt-5 icon" size={25} />
-              <BsTwitter className="ms-3 mt-5 icon" size={25} />
-              <BsTelegram className="ms-3 mt-5 icon" size={25} />
-              <BsDiscord className="ms-3 mt-5 icon" size={25} />
-              <AiOutlineInstagram className="ms-3 mt-5 icon" size={25} />
-              <AiFillGithub className="ms-3 mt-5 icon" size={25} />
-              <AiFillRedditCircle className="ms-3 mt-5 icon" size={25} />
-              <BsFacebook className="ms-3 mt-5 icon" size={25} />
-            </p>
+    <>
+      <div className="Footer-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-5 mb-5">
+              <h1 className="mt-5">
+                YOUR STEPS COUNT
+                <br />
+                WITH Marathon!
+              </h1>
+              <img src="./Assists/mobileapp.svg" className="w-25 mt-3" alt="" />
+              <img
+                src="./Assists/mobileapp1.svg"
+                className="w-25 ms-3 mt-3 "
+                alt=""
+              />
+            </div>
+            <div className="col-2"></div>
+            <div className="col-5 text-end">
+              <h2 className="mt-5">Join Our Comunity</h2>
+              <p>
+                <AiOutlineMedium className="ms-3 mt-5 icon" size={25} />
+                <BsTwitter className="ms-3 mt-5 icon" size={25} />
+                <BsTelegram className="ms-3 mt-5 icon" size={25} />
+                <BsDiscord className="ms-3 mt-5 icon" size={25} />
+                <AiOutlineInstagram className="ms-3 mt-5 icon" size={25} />
+                <AiFillGithub className="ms-3 mt-5 icon" size={25} />
+                <AiFillRedditCircle className="ms-3 mt-5 icon" size={25} />
+                <BsFacebook className="ms-3 mt-5 icon" size={25} />
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <div className="Footer-section">
+        <div className="container-fluid">
+          <div className="row bg-black">
+            <div className="col-lg-2"></div>
+            <div className="col-lg-4">
+              <img src="./Assists/logo.png" className="w-50 img1" alt="" />
+            </div>
+            <div className="col-lg-4">
+              <p className="mt-3" style={{ color: "#a5abb3" }}>
+                Copyright © 2022 MarathonCash.Com Company All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
